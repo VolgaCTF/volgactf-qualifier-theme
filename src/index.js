@@ -14,4 +14,8 @@ export default class DefaultCustomizer {
   getEventTitle () {
     return 'Themis Quals'
   }
+
+  getPartials () {
+    return {}
+  }
 }

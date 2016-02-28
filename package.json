@@ -1,6 +1,6 @@
 {
   "name": "themis-quals-customizer-default",
-  "version": "0.1.0-dev.1",
+  "version": "0.1.0-dev.2",
   "description": "Themis Quals default customization package. Part of [Themis Quals](https://github.com/aspyatkin/themis-quals) project.",
   "main": "lib/index.js",
   "scripts": {
