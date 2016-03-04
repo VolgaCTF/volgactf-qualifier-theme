@@ -18,4 +18,8 @@ export default class DefaultCustomizer {
   getPartials () {
     return {}
   }
+
+  getImages () {
+    return []
+  }
 }
