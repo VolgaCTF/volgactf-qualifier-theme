@@ -22,4 +22,12 @@ export default class DefaultCustomizer {
   getImages () {
     return []
   }
+
+  getFonts () {
+    return []
+  }
+
+  getStylesheets () {
+    return []
+  }
 }
