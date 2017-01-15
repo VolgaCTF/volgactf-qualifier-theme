@@ -1,6 +1,6 @@
 <p>Hello, {{ name }}!</p>
 <p>Welcome to Themis Quals!</p>
 <p>We just need to verify your email address.<br>
-<a href="https://{{{ domain }}}/verify-email?team={{{ team }}}&code={{{ code }}}">Click here to verify your email address.</a></p>
+<a href="{{#secure}}https{{/secure}}{{^secure}}http{{/secure}}://{{{ domain }}}/verify-email?team={{{ team }}}&code={{{ code }}}">Click here to verify your email address.</a></p>
 <p>Regards,<br>
 Themis Quals team.</p>

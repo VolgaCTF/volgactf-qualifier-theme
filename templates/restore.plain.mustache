@@ -1,7 +1,7 @@
 Hello, {{{ name }}}!
 
 We got a request to reset your account's password.
-Please navigate to https://{{{ domain }}}/reset-password?team={{{ team }}}&code={{{ code }}} in your browser.
+Please navigate to {{#secure}}https{{/secure}}{{^secure}}http{{/secure}}://{{{ domain }}}/reset-password?team={{{ team }}}&code={{{ code }}} in your browser.
 
 If you ignore this message, your password won't be changed.
 
