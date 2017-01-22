@@ -1,7 +1,7 @@
 {
   "name": "themis-quals-customizer-default",
-  "version": "0.1.2",
-  "description": "Themis Quals default customization package. Part of [Themis Quals](https://github.com/aspyatkin/themis-quals) project.",
+  "version": "0.2.0",
+  "description": "Themis Quals default customization package. Part of [Themis Quals](https://github.com/themis-project/themis-quals) project.",
   "main": "lib/index.js",
   "scripts": {
     "build": "babel src -d lib",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/aspyatkin/themis-quals-customizer-default.git"
+    "url": "git+https://github.com/themis-project/themis-quals-customizer-default.git"
   },
   "author": "Alexander Pyatkin",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/aspyatkin/themis-quals-customizer-default/issues"
+    "url": "https://github.com/themis-project/themis-quals-customizer-default/issues"
   },
-  "homepage": "https://github.com/aspyatkin/themis-quals-customizer-default#readme",
+  "homepage": "https://github.com/themis-project/themis-quals-customizer-default#readme",
   "devDependencies": {
     "babel-cli": "^6.5.1",
     "babel-eslint": "^5.0.0",
