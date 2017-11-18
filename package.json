@@ -1,11 +1,21 @@
 {
-  "name": "themis-quals-customizer-default",
-  "version": "0.2.0",
+  "name": "themis-quals-default",
+  "version": "1.0.0",
   "description": "Themis Quals default customization package. Part of [Themis Quals](https://github.com/themis-project/themis-quals) project.",
-  "main": "lib/index.js",
+  "main": "index.js",
+  "bin": {
+    "themis-quals-default": "server.js"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "axios": "^0.17.1",
+    "express": "^4.16.2"
+  },
+  "devDependencies": {},
   "scripts": {
-    "build": "babel src -d lib",
-    "lint": "standard --verbose src/**/*.js | snazzy"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -16,19 +26,5 @@
   "bugs": {
     "url": "https://github.com/themis-project/themis-quals-customizer-default/issues"
   },
-  "homepage": "https://github.com/themis-project/themis-quals-customizer-default#readme",
-  "devDependencies": {
-    "babel-cli": "^6.5.1",
-    "babel-eslint": "^5.0.0",
-    "babel-plugin-transform-class-properties": "^6.5.2",
-    "babel-preset-node5": "^10.6.0",
-    "snazzy": "^3.0.0",
-    "standard": "^6.0.7"
-  },
-  "standard": {
-    "parser": "babel-eslint"
-  },
-  "dependencies": {
-    "mustache": "^2.2.1"
-  }
+  "homepage": "https://github.com/themis-project/themis-quals-customizer-default#readme"
 }
