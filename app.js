@@ -9,14 +9,14 @@ app.use('/assets', assetsRouter)
 
 app.get('/metadata', function (req, res) {
   res.json({
-    name: 'themis-quals-default',
+    name: 'volgactf-qualifier-theme',
     version: '1.0.0'
   })
 })
 
 app.get('/event-title', function (req, res) {
   res.set('Content-Type', 'text/plain')
-  res.send('Themis Quals')
+  res.send('VolgaCTF Qualifier')
 })
 
 module.exports = app

@@ -1,30 +1,19 @@
 {
-  "name": "themis-quals-default",
+  "name": "volgactf-qualifier-theme",
   "version": "1.0.0",
-  "description": "Themis Quals default customization package. Part of [Themis Quals](https://github.com/themis-project/themis-quals) project.",
-  "main": "index.js",
-  "bin": {
-    "themis-quals-default": "server.js"
-  },
-  "directories": {
-    "lib": "lib"
-  },
-  "dependencies": {
-    "axios": "^0.17.1",
-    "express": "^4.16.2"
-  },
-  "devDependencies": {},
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "description": "VolgaCTF Qualifier theme",
+  "main": "bin/server.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/themis-project/themis-quals-customizer-default.git"
+    "url": "git+https://github.com/VolgaCTF/volgactf-qualifier-theme.git"
   },
-  "author": "Alexander Pyatkin",
+  "author": "VolgaCTF",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/themis-project/themis-quals-customizer-default/issues"
+    "url": "https://github.com/VolgaCTF/volgactf-qualifier-theme/issues"
   },
-  "homepage": "https://github.com/themis-project/themis-quals-customizer-default#readme"
+  "dependencies": {
+    "axios": "^0.18.0",
+    "express": "^4.16.2"
+  }
 }

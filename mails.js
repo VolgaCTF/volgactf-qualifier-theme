@@ -47,4 +47,19 @@ router.get('/invite_supervisor/html', function (req, res) {
   res.sendFile(path.join(__dirname, 'templates', 'invite_supervisor.html.mustache'))
 })
 
+router.get('/new_task_review/subject', function (req, res) {
+  res.set('Content-Type', 'text/plain')
+  res.send('New task review from "{{ team_name }}": "{{ task_title }}"')
+})
+
+router.get('/new_task_review/plain', function (req, res) {
+  res.set('Content-Type', 'text/plain')
+  res.sendFile(path.join(__dirname, 'templates', 'new_task_review.plain.mustache'))
+})
+
+router.get('/new_task_review/html', function (req, res) {
+  res.set('Content-Type', 'text/html')
+  res.sendFile(path.join(__dirname, 'templates', 'new_task_review.html.mustache'))
+})
+
 module.exports = router
